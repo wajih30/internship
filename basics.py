@@ -1,8 +1,7 @@
-x=65
-y=24
-sum=x+y
-print("the sum of ",x ,"and", y, "is",sum)
-for i in range (10):
-    z=15
-    z+=i
-print("the value of z is",z)
+count=0
+x=0
+while count<10:
+    print(x)
+    x+=1
+    count+=1
+  
