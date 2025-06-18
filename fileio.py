@@ -14,7 +14,11 @@ try:
         english_score = int(fields[3].split(":")[1])
 
         average_score = (math_score + science_score + english_score) / 3
-        result_status = "fail" if average_score < 60 else "pass"
+        if average_score < 60:
+             result_status = "fail"
+        else:
+             result_status = "pass"
+
 
         processed_students.append((student_name, round(average_score, 2), result_status))
 
