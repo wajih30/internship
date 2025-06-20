@@ -1,4 +1,0 @@
-Ali - Average: 73.33 - pass
-Zara - Average: 90.0 - pass
-Usman - Average: 55.0 - fail
-Aisha - Average: 40.0 - fail

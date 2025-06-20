@@ -26,5 +26,5 @@ try:
         for name, avg, status in processed_students:
             output_file.write(f"{name} - Average: {avg} - {status}\n")
 
-except FileNotFoundError:
-    print("File not found")
+except Exception as e:
+    print(e)
